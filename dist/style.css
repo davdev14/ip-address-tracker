@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background: url('/images/pattern-bg.png')no-repeat;
+  height: 250px;
+  position: relative;
+}
+.header h1 {
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.ip-search {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ip-search input {
+  height: 40px;
+  width: 60%;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  background-color: #fff;
+  outline: none;
+  padding: 0 15px ;
+}
+.ip-search button {
+  height: 42px;
+  border: none;
+  width: 40px;
+  border-radius: 0 10px 10px 0;
+  background-color: #000;
+  box-sizing: border-box;
+  padding-left: 15px;
+}
+.info-box {
+  background-color: #fff;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  /* position: absolute; */
+  z-index: 2;
+  left: 35px;
+}
+.info-box p {
+  color: hsl(0, 0%, 59%);
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+.info-box h3 {
+  margin: 0;
+  padding-bottom: 12px;
+  font-weight: 700;
+}
+#map { 
+  height: 450px; 
+  position: relative;
+  z-index: 1;
+}
