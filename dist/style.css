@@ -39,7 +39,7 @@ body {
   border-radius: 0 10px 10px 0;
   background-color: #000;
   box-sizing: border-box;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 .info-box {
   background-color: #fff;
@@ -47,11 +47,14 @@ body {
   margin: auto;
   border-radius: 10px;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px;
   margin-top: 20px;
-  /* position: absolute; */
+  position: absolute;
   z-index: 2;
-  left: 35px;
+}
+.center-info-box {
+  display: flex;
+  justify-content: center;
 }
 .info-box p {
   color: hsl(0, 0%, 59%);
