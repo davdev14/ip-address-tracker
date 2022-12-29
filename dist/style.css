@@ -26,6 +26,7 @@ body {
 .ip-search input {
   height: 40px;
   width: 60%;
+  font-size: 1.3em;
   border-radius: 10px 0 0 10px;
   border: none;
   background-color: #fff;
@@ -40,6 +41,9 @@ body {
   background-color: #000;
   box-sizing: border-box;
   padding-left: 10px;
+}
+.ip-search button:hover {
+  opacity: 50%;
 }
 .info-box {
   background-color: #fff;
